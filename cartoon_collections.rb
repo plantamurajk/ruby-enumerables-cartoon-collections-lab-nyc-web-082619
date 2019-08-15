@@ -15,5 +15,9 @@ def find_the_cheese(snacks)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   
+  counter = 0
+  
+  while cheese_types[counter] do
+    if
   
 end
