@@ -18,6 +18,12 @@ def find_the_cheese(snacks)
   counter = 0
   
   while cheese_types[counter] do
-    if snacks.include? {
+    if snacks.include?(cheese_types[counter]) then
+      return cheese_types[counter]
+    end
+    counter += 1
+  end
+  
+  return nil
   
 end
